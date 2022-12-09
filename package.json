@@ -1,0 +1,29 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "chat backend with socket io and postgres.",
+  "main": "server.js",
+  "scripts": {
+    "compile": "tsc && node dist/server.js",
+    "dev": "nodemon -e ts --exec \"npm run compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan daniel pautt rojas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.6.2",
+    "ts-node": "^10.2.1",
+    "tslint": "^5.12.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "class-transformer": "^0.3.1",
+    "class-validator": "^0.12.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.20",
+    "routing-controllers": "^0.9.0",
+    "socket.io": "^4.1.3"
+  }
+}
